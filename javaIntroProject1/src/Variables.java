@@ -7,5 +7,6 @@ class Variables {
         boolean porownanie2 = ja.equals(ty);
         System.out.println(porownanie1);
         System.out.println(porownanie2);
+        //kom
     }
 }
