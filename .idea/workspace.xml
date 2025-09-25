@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b775814-c89e-42b1-9f5c-2f119a01a31d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zadania/src/InstalmentCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1b775814-c89e-42b1-9f5c-2f119a01a31d" name="Changes" comment="Dodanie reszty zadań">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javaIntro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaIntro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/src/BMICalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/BMICalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/src/CalcSim.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/CalcSim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/src/InstalmentCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/InstalmentCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/src/MinMaxNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/MinMaxNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/src/TaxCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/TaxCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/src/TempConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/TempConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania/zadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/zadania.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +63,11 @@
     "Application.InstalmentCalc.executor": "Run",
     "Application.MinMaxNumber.executor": "Run",
     "Application.MixScan.executor": "Run",
+    "Application.OddNumbersGen.executor": "Run",
+    "Application.SequenceSum.executor": "Run",
     "Application.instalmentCalc.executor": "Run",
+    "Application.powerOf2.executor": "Run",
+    "Application.sumFromUser.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -70,6 +84,19 @@
       <option name="presentableId" value="Default" />
       <updated>1758618237213</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dodanie reszty zadań">
+      <option name="closed" value="true" />
+      <created>1758661467578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758661467578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dodanie reszty zadań" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie reszty zadań" />
   </component>
 </project>
