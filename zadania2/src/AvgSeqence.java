@@ -15,8 +15,8 @@ public class AvgSeqence {
             numberArr.add(userNumber);
         } while (userNumber != 0);
 
-        int min = numberArr.get(0);
-        int max = numberArr.get(0);
+        int min = numberArr.getFirst();
+        int max = numberArr.getFirst();
 
         double avgSum = 0;
         for (int i = 0; i < numberArr.size(); i++) {
