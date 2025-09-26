@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b775814-c89e-42b1-9f5c-2f119a01a31d" name="Changes" comment="Dodanie reszty zadań">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaIntro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaIntro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/src/BMICalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/BMICalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/src/CalcSim.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/CalcSim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/src/InstalmentCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/InstalmentCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/src/MinMaxNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/MinMaxNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/src/TaxCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/TaxCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/src/TempConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/src/TempConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania/zadania.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zadania1/zadania.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania2/src/sumFromUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania2/src/sumFromUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +47,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AvgSeqence.executor": "Run",
     "Application.BMICalc.executor": "Run",
     "Application.CalcSim.executor": "Run",
+    "Application.HotAndCold.executor": "Run",
     "Application.InstalmentCalc.executor": "Run",
     "Application.MinMaxNumber.executor": "Run",
     "Application.MixScan.executor": "Run",
@@ -72,6 +63,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/javaIntro",
     "settings.editor.selected.configurable": "configurable.group.language"
   }
 }]]></component>
