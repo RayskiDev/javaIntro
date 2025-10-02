@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b775814-c89e-42b1-9f5c-2f119a01a31d" name="Changes" comment="new exercises">
+      <change afterPath="$PROJECT_DIR$/zadania2/src/DivisorFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania2/src/EvenOddRatio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania2/src/PrimeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania2/src/RectangleDrawV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania2/src/TreeDraw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania2/src/AvgSeqence.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania2/src/AvgSeqence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania2/src/RectangleDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania2/src/RectangleDraw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +31,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;RayskiDev&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/RayskiDev/javaIntro.git&quot;,
-    &quot;accountId&quot;: &quot;943a23fb-79f9-4d8d-9e88-d67027658538&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RayskiDev/javaIntro.git",
+    "accountId": "5e74ce1c-cebf-42ff-b444-9041d6723878"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -44,28 +48,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AvgSeqence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BMICalc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalcSim.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HotAndCold.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstalmentCalc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinMaxNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MixScan.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddNumbersGen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SequenceSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.instalmentCalc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.powerOf2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.sumFromUser.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/javaIntro&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AvgSeqence.executor": "Run",
+    "Application.BMICalc.executor": "Run",
+    "Application.CalcSim.executor": "Run",
+    "Application.ChrismasTree.executor": "Run",
+    "Application.DivisorFinder.executor": "Run",
+    "Application.EvenOddRatio.executor": "Run",
+    "Application.HotAndCold.executor": "Run",
+    "Application.InstalmentCalc.executor": "Run",
+    "Application.MinMaxNumber.executor": "Run",
+    "Application.MixScan.executor": "Run",
+    "Application.OddNumbersGen.executor": "Run",
+    "Application.PrimeChecker.executor": "Run",
+    "Application.RectangleDraw.executor": "Run",
+    "Application.RectangleDrawV2.executor": "Run",
+    "Application.SequenceSum.executor": "Run",
+    "Application.instalmentCalc.executor": "Run",
+    "Application.powerOf2.executor": "Run",
+    "Application.sumFromUser.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/javaIntro",
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

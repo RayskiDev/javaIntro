@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RectangleDraw {
+public class RectangleDrawV2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int positionX, positionY, sizeA, sizeB;
@@ -23,24 +23,22 @@ public class RectangleDraw {
         positionY = variables[1];
         sizeA = variables[2];
         sizeB = variables[3];
+        String line = "> ";
+        StringBuilder build = new StringBuilder(line);
 
         int positionXSum = positionX + sizeB;
         int positionYSum = positionY + sizeA;
 
+        for (int i = 1; i < positionXSum; i++) {
+            if (i < positionX) build.append("_");
+            else build.append(sbl);
+        }
+
+        line = build.toString();
+
         for (int i = 1; i < positionYSum; i++) {
-            if (i < positionY) {
-                System.out.println(">");
-                continue;
-            }
-            System.out.print("> ");
-            for (int j = 1; j < positionXSum; j++) {
-                if (j < positionX) {
-                    System.out.print("_");
-                    continue;
-                }
-                System.out.print(sbl);
-            }
-            System.out.println();
+            if (i < positionY) System.out.println(">");
+            else System.out.println(line);
         }
     }
 }

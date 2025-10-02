@@ -15,18 +15,16 @@ public class AvgSeqence {
             numberArr.add(userNumber);
         } while (userNumber != 0);
 
-        int min = numberArr.getFirst();
-        int max = numberArr.getFirst();
+        int min = numberArr.get(0);
+        int max = numberArr.get(0);
 
         double avgSum = 0;
-        for (int i = 0; i < numberArr.size(); i++) {
-            if (max < numberArr.get(i)) max = numberArr.get(i);
-            if (min > numberArr.get(i)) min = numberArr.get(i);
-            avgSum += numberArr.get(i);
+        for (int num : numberArr) {
+            if (max < num) max = num;
+            if (min > num) min = num;
+            avgSum += num;
         }
         System.out.println("\nSuma największej i najmniejszej liczby wynosi: " + (min+max));
-        System.out.println("Średnia arytmetyczna ciągu wynosi: " + (avgSum/numberArr.size()));
+        System.out.printf("Średnia arytmetyczna ciągu wynosi: %.2f", (avgSum/numberArr.size()));
     }
 }
-
-//1, -4, 2, 17, 0.
