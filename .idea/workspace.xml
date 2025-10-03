@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b775814-c89e-42b1-9f5c-2f119a01a31d" name="Changes" comment="new exercises">
-      <change afterPath="$PROJECT_DIR$/zadania2/src/DivisorFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania2/src/EvenOddRatio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania2/src/PrimeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania2/src/RectangleDrawV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania2/src/TreeDraw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania3/zadania3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania2/src/AvgSeqence.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania2/src/AvgSeqence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania2/src/RectangleDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania2/src/RectangleDraw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +30,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/RayskiDev/javaIntro.git",
-    "accountId": "5e74ce1c-cebf-42ff-b444-9041d6723878"
+    "accountId": "943a23fb-79f9-4d8d-9e88-d67027658538"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -50,6 +44,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Array2DMinMax.executor": "Run",
+    "Application.ArrayMath.executor": "Run",
     "Application.AvgSeqence.executor": "Run",
     "Application.BMICalc.executor": "Run",
     "Application.CalcSim.executor": "Run",
@@ -58,10 +54,12 @@
     "Application.EvenOddRatio.executor": "Run",
     "Application.HotAndCold.executor": "Run",
     "Application.InstalmentCalc.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MinMaxNumber.executor": "Run",
     "Application.MixScan.executor": "Run",
     "Application.OddNumbersGen.executor": "Run",
     "Application.PrimeChecker.executor": "Run",
+    "Application.RandomArrayOccurr.executor": "Run",
     "Application.RectangleDraw.executor": "Run",
     "Application.RectangleDrawV2.executor": "Run",
     "Application.SequenceSum.executor": "Run",
@@ -70,9 +68,11 @@
     "Application.sumFromUser.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/Desktop/javaIntro",
+    "onboarding.tips.debug.path": "C:/Users/User/Desktop/javaIntro/zadania3/src/Main.java",
     "settings.editor.selected.configurable": "configurable.group.language"
   }
 }]]></component>
