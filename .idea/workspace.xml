@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b775814-c89e-42b1-9f5c-2f119a01a31d" name="Changes" comment="new exercises">
-      <change afterPath="$PROJECT_DIR$/zadania3/src/AdvancedBinaryConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania3/src/ConverterZM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania3/zadania3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zadania3/zadania3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania3/src/AdvancedBinaryConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania3/src/AdvancedBinaryConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AdvancedBinaryConverter.executor": "Run",
     "Application.Array2DMinMax.executor": "Run",
     "Application.ArrayMath.executor": "Run",
     "Application.AvgSeqence.executor": "Run",
@@ -104,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758880988885</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new exercises">
+      <option name="closed" value="true" />
+      <created>1759832599354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759832599354</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
