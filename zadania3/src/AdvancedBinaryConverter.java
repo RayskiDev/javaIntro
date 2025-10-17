@@ -23,7 +23,7 @@ public class AdvancedBinaryConverter {
             bitCount++;
         }
 
-        int closestPower = closestPower(bitCount);
+        int closestPower = (signBit == 1) ? closestPower(bitCount+1) : closestPower(bitCount);
 
 
         switch (system) {
@@ -44,11 +44,19 @@ public class AdvancedBinaryConverter {
     }
 
     private static void writeArray(int closestPower, int userNumber, int[] array, String system, int signBit) {
-        System.out.printf("Liczba %d binarnie w systemie %s: %d", userNumber, system, signBit);
-        for (int i = closestPower-2; i >= 0; i--) {
-            System.out.print(array[i]);
+        System.out.printf("Liczba %d binarnie w systemie %s: ", userNumber, system);
+        if (signBit == 0) {
+            for (int i = closestPower-1; i >= 0; i--) {
+                System.out.print(array[i]);
+            }
+            System.out.println();
+        } else {
+            System.out.print(signBit);
+            for (int i = closestPower-2; i >= 0; i--) {
+                System.out.print(array[i]);
+            }
+            System.out.println();
         }
-        System.out.println();
     }
 
     private static int closestPower(int n) {

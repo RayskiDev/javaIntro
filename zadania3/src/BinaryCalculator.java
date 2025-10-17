@@ -12,6 +12,7 @@ public class BinaryCalculator {
         userNumber2 = scan.nextInt();
         System.out.print("Wybierz system kodowania: ");
         system = scan.nextInt();
+        System.out.println();
 
         int sum = userNumber1 + userNumber2;
         int diff = userNumber1 - userNumber2;
@@ -27,7 +28,12 @@ public class BinaryCalculator {
 
 
         System.out.printf("Odejmowanie %d i %d w systemie %s: \n", userNumber1, userNumber2, systemPrint);
-//        printInSystem(diff, system, userNumber1, userNumber2);
+        printInSystem(userNumber1, system);
+        System.out.print(" - ");
+        printInSystem(userNumber2, system);
+        System.out.print(" = ");
+        printInSystem(diff, system);
+        System.out.println();
     }
 
     private static void printInSystem(int number, int system) {
@@ -42,7 +48,7 @@ public class BinaryCalculator {
             bitCount++;
         }
 
-        int closestPower = closestPower(bitCount);
+        int closestPower = (signBit == 1) ? closestPower(bitCount+1) : closestPower(bitCount);
 
 
         switch (system) {
@@ -63,11 +69,16 @@ public class BinaryCalculator {
     }
 
     private static void writeArray(int closestPower, int[] array, int signBit) {
-        System.out.print(signBit);
-        for (int i = closestPower-2; i >= 0; i--) {
-            System.out.print(array[i]);
+        if (signBit == 0) {
+            for (int i = closestPower-1; i >= 0; i--) {
+                System.out.print(array[i]);
+            }
+        } else {
+            System.out.print(signBit);
+            for (int i = closestPower-2; i >= 0; i--) {
+                System.out.print(array[i]);
+            }
         }
-        System.out.println();
     }
 
     private static int closestPower(int n) {
