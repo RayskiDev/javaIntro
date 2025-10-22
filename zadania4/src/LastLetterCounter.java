@@ -13,6 +13,10 @@ public class LastLetterCounter {
         for (int i = 0; i < userInput.length(); i++) {
             if (userInput.charAt(i) == last) counter++;
         }
-        System.out.printf("Literka '%c' w słowie '%s' występuje %d razy.\n", last, userInput, counter);
+
+        String text;
+        if (counter == 1) text = "raz";
+        else text = "razy";
+        System.out.printf("Literka '%c' w słowie '%s' występuje %d %s.\n", last, userInput, counter, text);
     }
 }
