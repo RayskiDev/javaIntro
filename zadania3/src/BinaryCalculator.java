@@ -1,20 +1,45 @@
 import java.util.Scanner;
 
-public class AdvancedBinaryConverter {
+public class BinaryCalculator {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int userNumber;
+        int userNumber1, userNumber2;
         int system;
-        int[] zmBits = new int[32];
 
         System.out.print("Podaj liczbę całkowitą: ");
-        userNumber = scan.nextInt();
+        userNumber1 = scan.nextInt();
+        System.out.print("Podaj drugą liczbę całkowitą: ");
+        userNumber2 = scan.nextInt();
         System.out.print("Wybierz system kodowania: ");
         system = scan.nextInt();
+        System.out.println();
+
+        int sum = userNumber1 + userNumber2;
+        int diff = userNumber1 - userNumber2;
+        String systemPrint = ((system == 1) ? "ZM" : (system == 2) ? "ZU1" : "ZU2");
+
+        System.out.printf("Dodawanie %d i %d w systemie %s: \n", userNumber1, userNumber2, systemPrint);
+        printInSystem(userNumber1, system);
+        System.out.print(" + ");
+        printInSystem(userNumber2, system);
+        System.out.print(" = ");
+        printInSystem(sum, system);
+        System.out.println();
 
 
-        int signBit = (userNumber < 0) ? 1 : 0;
-        int absValue = Math.abs(userNumber);
+        System.out.printf("Odejmowanie %d i %d w systemie %s: \n", userNumber1, userNumber2, systemPrint);
+        printInSystem(userNumber1, system);
+        System.out.print(" - ");
+        printInSystem(userNumber2, system);
+        System.out.print(" = ");
+        printInSystem(diff, system);
+        System.out.println();
+    }
+
+    private static void printInSystem(int number, int system) {
+        int[] zmBits = new int[32];
+        int signBit = (number < 0) ? 1 : 0;
+        int absValue = Math.abs(number);
 
         int bitCount = 0;
         while (bitCount < 32 && absValue > 0) {
@@ -28,34 +53,31 @@ public class AdvancedBinaryConverter {
 
         switch (system) {
             case 1:
-                writeArray(closestPower, userNumber, zmBits, "zm", signBit);
+                writeArray(closestPower, zmBits, signBit);
                 break;
             case 2:
                 int[] zu1Bits = zu1Converter(closestPower, bitCount, signBit, zmBits);
-                writeArray(closestPower, userNumber, zu1Bits, "zu1", signBit);
+                writeArray(closestPower, zu1Bits, signBit);
                 break;
             case 3:
                 int[] zu2Bits = zu2Converter(closestPower, bitCount, signBit, zmBits);
-                writeArray(closestPower, userNumber, zu2Bits, "zu2", signBit);
+                writeArray(closestPower, zu2Bits, signBit);
                 break;
             default:
                 System.out.print("Błąd w wyborze systemu!");
         }
     }
 
-    private static void writeArray(int closestPower, int userNumber, int[] array, String system, int signBit) {
-        System.out.printf("Liczba %d binarnie w systemie %s: ", userNumber, system);
+    private static void writeArray(int closestPower, int[] array, int signBit) {
         if (signBit == 0) {
             for (int i = closestPower-1; i >= 0; i--) {
                 System.out.print(array[i]);
             }
-            System.out.println();
         } else {
             System.out.print(signBit);
             for (int i = closestPower-2; i >= 0; i--) {
                 System.out.print(array[i]);
             }
-            System.out.println();
         }
     }
 

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b775814-c89e-42b1-9f5c-2f119a01a31d" name="Changes" comment="new exercises">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zadania3/src/AdvancedBinaryConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zadania3/src/AdvancedBinaryConverter.java" afterDir="false" />
     </list>
@@ -26,12 +27,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/RayskiDev/javaIntro.git&quot;,
-    &quot;accountId&quot;: &quot;943a23fb-79f9-4d8d-9e88-d67027658538&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RayskiDev/javaIntro.git",
+    "accountId": "5e74ce1c-cebf-42ff-b444-9041d6723878"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -51,6 +52,7 @@
     "Application.CalcSim.executor": "Run",
     "Application.ChrismasTree.executor": "Run",
     "Application.ConverterZM.executor": "Run",
+    "Application.CoprimeArrayGenerator.executor": "Run",
     "Application.DivisorFinder.executor": "Run",
     "Application.EvenOddRatio.executor": "Run",
     "Application.HotAndCold.executor": "Run",
@@ -68,6 +70,7 @@
     "Application.powerOf2.executor": "Run",
     "Application.sumFromUser.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
