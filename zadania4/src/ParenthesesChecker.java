@@ -10,10 +10,10 @@ public class ParenthesesChecker {
 
         int counter = 0;
         for (int i = 0; i < userInput.length(); i++) {
-            char ch = userInput.charAt(i);
+            char check = userInput.charAt(i);
 
-            if (ch == '(') counter++;
-            else if (ch == ')') counter--;
+            if (check == '(') counter++;
+            else if (check == ')') counter--;
 
             if (counter < 0) {
                 System.out.println("Błędne sparowanie nawiasów");
